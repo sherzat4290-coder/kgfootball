@@ -1,26 +1,50 @@
-name: Проверка футбольного API
+name: Футбол постун даярдоо
 
 on:
   workflow_dispatch:
 
 jobs:
-  check:
+  post:
     runs-on: ubuntu-latest
     steps:
-      - name: Проверить подключение к API Ninjas
+      - name: Матчты алып, пост даярдоо
         env:
           API_KEY: ${{ secrets.API_NINJAS_KEY }}
         run: |
-          if [ -z "$API_KEY" ]; then
-            echo "Ключ API_NINJAS_KEY не найден в GitHub Secrets."
-            exit 1
-          fi
-
-          curl -sS \
+          curl -fsS \
             -H "X-Api-Key: $API_KEY" \
-            -o response.json \
-            -w "HTTP-статус: %{http_code}\n" \
-            "https://api.api-ninjas.com/v1/soccermatches?league=ucl"
+            "https://api.api-ninjas.com/v1/soccermatches?league=ucl" \
+            -o matches.json
 
-          echo "Ответ API:"
-          cat response.json
+          python3 - <<'PY'
+          import json
+
+          with open("matches.json", encoding="utf-8") as f:
+              matches = json.load(f)
+
+          if not matches:
+              print("Азырынча матч табылган жок.")
+          else:
+              match = matches[0]
+              home = match.get("home_team") or {}
+              away = match.get("away_team") or {}
+              home_name = home.get("name", "Команда 1")
+              away_name = away.get("name", "Команда 2")
+              date = match.get("date", "Дата көрсөтүлгөн эмес")
+              status = match.get("status", "")
+
+              print("⚽ ЧЕМПИОНДОР ЛИГАСЫ")
+              print(f"🔥 {home_name} — {away_name}")
+              print(f"📅 Дата: {date}")
+
+              if status == "final":
+                  print(f"🏁 Эсеп: {match.get('home_score')} : {match.get('away_score')}")
+              elif status == "in_progress":
+                  print("🔴 Беттеш жүрүп жатат!")
+              elif status == "scheduled":
+                  print("⏳ Беттеш алдыда!")
+              else:
+                  print(f"ℹ️ Статус: {status or 'белгисиз'}")
+
+              print("#футбол #чемпиондорлигасы #kgfootballtv")
+          PY
