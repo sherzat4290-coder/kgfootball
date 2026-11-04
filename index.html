@@ -1,60 +1,109 @@
 <!DOCTYPE html>
 <html lang="ky">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KG Football TV</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-        body { background: #070d19; color: #ffffff; min-height: 100vh; display: flex; justify-content: center; padding: 25px 15px 40px; }
-        .box { width: 100%; max-width: 420px; text-align: center; }
-        .logo { font-size: 60px; margin-bottom: 8px; display: inline-block; }
-        h1 { font-size: 24px; font-weight: 800; color: #00ff88; letter-spacing: 0.5px; }
-        .bio { font-size: 14px; color: #9bb3d6; margin-top: 6px; line-height: 1.4; }
-        
-        .match { background: #111c33; border: 1.5px solid #00ff88; border-radius: 16px; padding: 18px; margin: 25px 0; box-shadow: 0 0 20px rgba(0, 255, 136, 0.2); }
-        .live-tag { background: #e63946; color: white; font-size: 11px; font-weight: 900; padding: 4px 10px; border-radius: 20px; text-transform: uppercase; }
-        .teams { font-size: 18px; font-weight: 800; margin: 15px 0 8px; }
-        .time { font-size: 14px; color: #00ff88; font-weight: 700; }
-        
-        .btn { display: flex; align-items: center; justify-content: center; gap: 10px; background: #162644; color: #ffffff; text-decoration: none; padding: 16px; margin: 12px 0; border-radius: 14px; font-size: 15px; font-weight: 700; border: 1px solid rgba(255, 255, 255, 0.1); }
-        .btn:active { background: #00ff88; color: #000; transform: scale(0.98); }
-        .btn.tg { background: #229ED9; }
-        .btn.ig { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
-        .btn.wa { background: #25D366; }
-        
-        .footer { margin-top: 35px; font-size: 12px; color: #5a7194; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KG Football TV — Пост редактору</title>
+
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px 15px;
+      background: #08111f;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    main { max-width: 550px; margin: auto; }
+    h1 { color: #20e58d; text-align: center; }
+    .card {
+      background: #14253a;
+      border-radius: 16px;
+      padding: 18px;
+      margin-top: 18px;
+    }
+    p { line-height: 1.5; color: #c5d3df; }
+    label { display: block; font-weight: bold; margin-bottom: 10px; }
+    textarea {
+      width: 100%;
+      min-height: 240px;
+      padding: 14px;
+      border: 1px solid #48627e;
+      border-radius: 10px;
+      background: #091727;
+      color: white;
+      font: 16px/1.5 Arial, sans-serif;
+    }
+    button, .link {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin-top: 12px;
+      border: 0;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+    }
+    button { background: #20e58d; color: #07150e; }
+    .link { background: #bd2e76; color: white; }
+    #message { color: #20e58d; }
+    .warning { color: #ffd77a; }
+  </style>
 </head>
 <body>
-    <div class="box">
-        <div class="logo">⚽</div>
-        <h1>KG FOOTBALL TV</h1>
-        <p class="bio">Дүйнөлүк жана кыргыз футболунун эң акыркы жаңылыктары, кооз голдор жана түз эфирлер!</p>
+<main>
+  <h1>⚽ KG FOOTBALL TV</h1>
+  <p style="text-align:center">Пост даярдоо жана оңдоо</p>
 
-        <!-- Күндүн оюну -->
-        <div class="match">
-            <span class="live-tag">🔥 КҮНДҮН БАШКЫ БЕТТЕШИ</span>
-            <div class="teams">Реал Мадрид ⚔️ Манчестер Сити</div>
-            <div class="time">⏰ Бүгүн түнкү саат 01:00 (Бишкек убактысы)</div>
-        </div>
+  <div class="card">
+    <h2>📝 Пост редактору</h2>
+    <p class="warning">
+      Бул мурунку текшерүүдөгү мисал. Жарыялоодон мурун
+      датасын, командаларды жана маалыматтын тууралыгын текшериңиз.
+    </p>
 
-        <!-- Туташкан баскычтар -->
-        <a href="https://t.me/kgfootballtv" target="_blank" class="btn tg">
-            ✈️ Телеграм каналга жазылуу (Түз эфир)
-        </a>
+    <label for="post">Текстти бул жерден өзгөртүңүз:</label>
+    <textarea id="post">⚽ ЧЕМПИОНДОР ЛИГАСЫ
 
-        <a href="https://instagram.com/kgfootballtv" target="_blank" class="btn ig">
-            🎬 Инстаграм: Акыркы голдор жана Reels
-        </a>
+🔥 Fenerbahce — Liverpool
+📅 Дата: 2026-11-04
+⏳ Беттеш алдыда!
 
-        <a href="https://ig.me/m/kgfootballtv" target="_blank" class="btn">
-            📩 Direct: Жарнама жана кызматташуу
-        </a>
+#футбол #чемпиондорлигасы #kgfootballtv</textarea>
 
-        <div class="footer">
-            © 2026 KG FOOTBALL TV. Бардык укуктар корголгон.
-        </div>
-    </div>
+    <button id="copy">📋 Постту көчүрүү</button>
+    <p id="message" aria-live="polite"></p>
+
+    <a class="link" href="https://www.instagram.com/">
+      📸 Instagram ачуу
+    </a>
+    <p>Instagram’га киргенден кийин постту өзүңүз жайгаштырасыз.</p>
+  </div>
+
+  <div class="card">
+    <h2>🎬 Reels</h2>
+    <p>Видео даярдоо жана автоматтык жүктөө азырынча туташтырыла элек.</p>
+  </div>
+</main>
+
+<script>
+  const button = document.getElementById("copy");
+  const post = document.getElementById("post");
+  const message = document.getElementById("message");
+
+  button.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(post.value);
+      message.textContent = "Пост көчүрүлдү!";
+    } catch (error) {
+      post.focus();
+      post.select();
+      message.textContent =
+        "Текст белгиленди. Телефонуңуздан «Копировать» басыңыз.";
+    }
+  });
+</script>
 </body>
 </html>
