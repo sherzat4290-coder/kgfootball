@@ -1,0 +1,26 @@
+name: Проверка футбольного API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Проверить подключение к API Ninjas
+        env:
+          API_KEY: ${{ secrets.API_NINJAS_KEY }}
+        run: |
+          if [ -z "$API_KEY" ]; then
+            echo "Ключ API_NINJAS_KEY не найден в GitHub Secrets."
+            exit 1
+          fi
+
+          curl -sS \
+            -H "X-Api-Key: $API_KEY" \
+            -o response.json \
+            -w "HTTP-статус: %{http_code}\n" \
+            "https://api.api-ninjas.com/v1/soccermatches"
+
+          echo "Ответ API:"
+          cat response.json
