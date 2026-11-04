@@ -20,7 +20,7 @@ jobs:
             -H "X-Api-Key: $API_KEY" \
             -o response.json \
             -w "HTTP-статус: %{http_code}\n" \
-            "https://api.api-ninjas.com/v1/soccermatches"
+            "https://api.api-ninjas.com/v1/soccermatches?league=epl"
 
           echo "Ответ API:"
           cat response.json
