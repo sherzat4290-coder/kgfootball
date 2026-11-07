@@ -10,10 +10,10 @@
     "leg": null,
     "date": "2026-11-07",
     "start_time": "2026-11-07T12:30:00Z",
-    "status": "in_progress",
-    "status_detail": "This field is for premium subscribers only.",
-    "period": "This field is for premium subscribers only.",
-    "clock": "This field is for premium subscribers only.",
+    "status": "final",
+    "status_detail": null,
+    "period": 2,
+    "clock": null,
     "home_team": {
       "team_id": "soccer-leeds-united",
       "name": "Leeds United",
@@ -24,13 +24,22 @@
       "name": "Tottenham Hotspur",
       "abbreviation": "TOT"
     },
-    "home_score": "This field is for premium subscribers only.",
-    "away_score": "This field is for premium subscribers only.",
-    "period_scores": "This field is for premium subscribers only.",
-    "penalty_scores": "This field is for premium subscribers only.",
-    "aggregate_scores": "This field is for premium subscribers only.",
-    "decided_in": null,
-    "winner": null,
+    "home_score": 1,
+    "away_score": 0,
+    "period_scores": {
+      "home": [
+        0,
+        1
+      ],
+      "away": [
+        0,
+        0
+      ]
+    },
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": "regulation",
+    "winner": "soccer-leeds-united",
     "venue": {
       "name": "Elland Road",
       "city": "Leeds",
@@ -39,9 +48,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-11-07T13:00:01Z",
-    "hits": "This field is for premium subscribers only.",
-    "errors": "This field is for premium subscribers only."
+    "updated_at": "2026-11-07T14:27:30Z"
   },
   {
     "game_id": "epl-20261107-hul-ars",
@@ -54,9 +61,9 @@
     "leg": null,
     "date": "2026-11-07",
     "start_time": "2026-11-07T15:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-arsenal",
@@ -68,13 +75,22 @@
       "name": "Hull City",
       "abbreviation": "HUL"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 1,
+    "away_score": 0,
+    "period_scores": {
+      "home": [
+        0,
+        1
+      ],
+      "away": [
+        0,
+        0
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-arsenal",
     "venue": {
       "name": "Emirates Stadium",
       "city": "London",
@@ -83,7 +99,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-07T16:55:30Z"
   },
   {
     "game_id": "epl-20261107-new-ful",
@@ -96,9 +112,9 @@
     "leg": null,
     "date": "2026-11-07",
     "start_time": "2026-11-07T15:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-fulham",
@@ -110,12 +126,21 @@
       "name": "Newcastle United",
       "abbreviation": "NEW"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 1,
+    "away_score": 1,
+    "period_scores": {
+      "home": [
+        0,
+        1
+      ],
+      "away": [
+        0,
+        1
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
+    "decided_in": "regulation",
     "winner": null,
     "venue": {
       "name": "Craven Cottage",
@@ -125,7 +150,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-07T16:57:31Z"
   },
   {
     "game_id": "epl-20261107-mnc-nfo",
@@ -138,10 +163,10 @@
     "leg": null,
     "date": "2026-11-07",
     "start_time": "2026-11-07T17:30:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-nottingham-forest",
       "name": "Nottingham Forest",
@@ -152,11 +177,11 @@
       "name": "Manchester City",
       "abbreviation": "MNC"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -167,7 +192,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-07T18:54:30Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "laliga-20261107-rac-mcf",
@@ -180,9 +207,9 @@
     "leg": null,
     "date": "2026-11-07",
     "start_time": "2026-11-07T13:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-malaga",
@@ -194,13 +221,22 @@
       "name": "Racing Santander",
       "abbreviation": "RAC"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 1,
+    "away_score": 2,
+    "period_scores": {
+      "home": [
+        1,
+        0
+      ],
+      "away": [
+        0,
+        2
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-racing-santander",
     "venue": {
       "name": "La Rosaleda",
       "city": "Malaga",
@@ -209,7 +245,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:17Z"
+    "updated_at": "2026-11-07T14:58:31Z"
   },
   {
     "game_id": "laliga-20261107-dep-esp",
@@ -222,9 +258,9 @@
     "leg": null,
     "date": "2026-11-07",
     "start_time": "2026-11-07T15:15:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-espanyol",
@@ -236,12 +272,21 @@
       "name": "Deportivo",
       "abbreviation": "DEP"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 0,
+    "away_score": 0,
+    "period_scores": {
+      "home": [
+        0,
+        0
+      ],
+      "away": [
+        0,
+        0
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
+    "decided_in": "regulation",
     "winner": null,
     "venue": {
       "name": "RCDE Stadium",
@@ -251,7 +296,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:17Z"
+    "updated_at": "2026-11-07T17:10:31Z"
   },
   {
     "game_id": "laliga-20261107-ath-osa",
@@ -264,10 +309,10 @@
     "leg": null,
     "date": "2026-11-07",
     "start_time": "2026-11-07T17:30:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-osasuna",
       "name": "Osasuna",
@@ -278,11 +323,11 @@
       "name": "Athletic Club",
       "abbreviation": "ATH"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -293,7 +338,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:17Z"
+    "updated_at": "2026-11-07T18:54:01Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "laliga-20261107-rma-val",
