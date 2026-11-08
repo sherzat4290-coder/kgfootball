@@ -10,9 +10,9 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T14:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-ipswich-town",
@@ -24,13 +24,22 @@
       "name": "AFC Bournemouth",
       "abbreviation": "BOU"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 1,
+    "away_score": 2,
+    "period_scores": {
+      "home": [
+        0,
+        1
+      ],
+      "away": [
+        1,
+        1
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-afc-bournemouth",
     "venue": {
       "name": "Portman Road",
       "city": "Ipswich",
@@ -39,7 +48,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-08T15:58:01Z"
   },
   {
     "game_id": "epl-20261108-bre-bha",
@@ -52,9 +61,9 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T14:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-brighton-hove-albion",
@@ -66,13 +75,22 @@
       "name": "Brentford",
       "abbreviation": "BRE"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 2,
+    "away_score": 0,
+    "period_scores": {
+      "home": [
+        2,
+        0
+      ],
+      "away": [
+        0,
+        0
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-brighton-hove-albion",
     "venue": {
       "name": "American Express Stadium",
       "city": "Falmer",
@@ -81,7 +99,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-08T15:57:30Z"
   },
   {
     "game_id": "epl-20261108-che-sun",
@@ -94,9 +112,9 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T14:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-sunderland",
@@ -108,13 +126,22 @@
       "name": "Chelsea",
       "abbreviation": "CHE"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 1,
+    "away_score": 0,
+    "period_scores": {
+      "home": [
+        1,
+        0
+      ],
+      "away": [
+        0,
+        0
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-sunderland",
     "venue": {
       "name": "Stadium of Light",
       "city": "Sunderland",
@@ -123,7 +150,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-08T16:02:01Z"
   },
   {
     "game_id": "epl-20261108-liv-cry",
@@ -136,9 +163,9 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T14:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-crystal-palace",
@@ -150,13 +177,22 @@
       "name": "Liverpool",
       "abbreviation": "LIV"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 1,
+    "away_score": 3,
+    "period_scores": {
+      "home": [
+        0,
+        1
+      ],
+      "away": [
+        1,
+        2
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-liverpool",
     "venue": {
       "name": "Selhurst Park",
       "city": "London",
@@ -165,7 +201,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-08T15:56:31Z"
   },
   {
     "game_id": "epl-20261108-avl-man",
@@ -178,9 +214,9 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T16:30:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-manchester-united",
@@ -192,12 +228,21 @@
       "name": "Aston Villa",
       "abbreviation": "AVL"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 4,
+    "away_score": 4,
+    "period_scores": {
+      "home": [
+        2,
+        2
+      ],
+      "away": [
+        2,
+        2
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
+    "decided_in": "regulation",
     "winner": null,
     "venue": {
       "name": "Old Trafford",
@@ -207,7 +252,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-08T18:31:01Z"
   },
   {
     "game_id": "laliga-20261108-bet-elc",
@@ -220,9 +265,9 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T13:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-elche",
@@ -234,13 +279,22 @@
       "name": "Real Betis",
       "abbreviation": "BET"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 0,
+    "away_score": 2,
+    "period_scores": {
+      "home": [
+        0,
+        0
+      ],
+      "away": [
+        0,
+        2
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-real-betis",
     "venue": {
       "name": "Estadio Martínez Valero",
       "city": "Elche",
@@ -249,7 +303,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:17Z"
+    "updated_at": "2026-11-08T14:53:30Z"
   },
   {
     "game_id": "laliga-20261108-ray-rso",
@@ -262,9 +316,9 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T15:15:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-real-sociedad",
@@ -276,13 +330,22 @@
       "name": "Rayo Vallecano",
       "abbreviation": "RAY"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 1,
+    "away_score": 0,
+    "period_scores": {
+      "home": [
+        0,
+        1
+      ],
+      "away": [
+        0,
+        0
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-real-sociedad",
     "venue": {
       "name": "Reale Arena",
       "city": "San Sebastian",
@@ -291,7 +354,7 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:17Z"
+    "updated_at": "2026-11-08T17:11:30Z"
   },
   {
     "game_id": "laliga-20261108-get-vil",
@@ -304,10 +367,10 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T17:30:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-villarreal",
       "name": "Villarreal",
@@ -318,11 +381,11 @@
       "name": "Getafe",
       "abbreviation": "GET"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -333,7 +396,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:17Z"
+    "updated_at": "2026-11-08T18:54:01Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "laliga-20261108-lev-cel",
@@ -346,10 +411,10 @@
     "leg": null,
     "date": "2026-11-08",
     "start_time": "2026-11-08T17:30:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-celta-vigo",
       "name": "Celta Vigo",
@@ -360,11 +425,11 @@
       "name": "Levante",
       "abbreviation": "LEV"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -375,7 +440,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:17Z"
+    "updated_at": "2026-11-08T18:53:31Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "laliga-20261108-bar-atm",
