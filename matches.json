@@ -10,10 +10,10 @@
     "leg": null,
     "date": "2026-11-21",
     "start_time": "2026-11-21T12:30:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-manchester-city",
       "name": "Manchester City",
@@ -24,11 +24,11 @@
       "name": "Fulham",
       "abbreviation": "FUL"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -39,7 +39,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-21T13:08:01Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "epl-20261121-cry-cov",
@@ -304,10 +306,10 @@
     "leg": null,
     "date": "2026-11-21",
     "start_time": "2026-11-21T13:00:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-alaves",
       "name": "Alavés",
@@ -318,11 +320,11 @@
       "name": "Deportivo",
       "abbreviation": "DEP"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -333,7 +335,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:17Z"
+    "updated_at": "2026-11-21T13:08:30Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "laliga-20261121-val-ray",
