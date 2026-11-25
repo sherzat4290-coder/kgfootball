@@ -10,10 +10,10 @@
     "leg": null,
     "date": "2026-11-25",
     "start_time": "2026-11-25T17:45:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-sabah-fk",
       "name": "Sabah FK",
@@ -24,11 +24,11 @@
       "name": "Barcelona",
       "abbreviation": "BAR"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -39,7 +39,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-28T04:01:32Z"
+    "updated_at": "2026-11-25T19:05:31Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "ucl-20261125-vil-slp",
@@ -52,10 +54,10 @@
     "leg": null,
     "date": "2026-11-25",
     "start_time": "2026-11-25T17:45:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-slavia-prague",
       "name": "Slavia Prague",
@@ -66,11 +68,11 @@
       "name": "Villarreal",
       "abbreviation": "VIL"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -81,7 +83,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-28T04:01:32Z"
+    "updated_at": "2026-11-25T19:05:01Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "ucl-20261125-fen-shk",
