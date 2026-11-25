@@ -1,6 +1,6 @@
 [
   {
-    "game_id": "ucl-20261124-avl-gal",
+    "game_id": "ucl-20261125-bar-sab",
     "league": "ucl",
     "sport": "soccer",
     "season": 2026,
@@ -8,109 +8,21 @@
     "season_type": "league_phase",
     "round": null,
     "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T17:45:00Z",
-    "status": "in_progress",
-    "status_detail": "This field is for premium subscribers only.",
-    "period": "This field is for premium subscribers only.",
-    "clock": "This field is for premium subscribers only.",
-    "home_team": {
-      "team_id": "soccer-galatasaray",
-      "name": "Galatasaray",
-      "abbreviation": "GAL"
-    },
-    "away_team": {
-      "team_id": "soccer-aston-villa",
-      "name": "Aston Villa",
-      "abbreviation": "AVL"
-    },
-    "home_score": "This field is for premium subscribers only.",
-    "away_score": "This field is for premium subscribers only.",
-    "period_scores": "This field is for premium subscribers only.",
-    "penalty_scores": "This field is for premium subscribers only.",
-    "aggregate_scores": "This field is for premium subscribers only.",
-    "decided_in": null,
-    "winner": null,
-    "venue": {
-      "name": "RAMS Park",
-      "city": "Istanbul",
-      "state": null,
-      "country": "TR"
-    },
-    "neutral_site": false,
-    "original_date": null,
-    "updated_at": "2026-11-24T19:11:30Z",
-    "hits": "This field is for premium subscribers only.",
-    "errors": "This field is for premium subscribers only."
-  },
-  {
-    "game_id": "ucl-20261124-las-bodo",
-    "league": "ucl",
-    "sport": "soccer",
-    "season": 2026,
-    "season_label": "2026-27",
-    "season_type": "league_phase",
-    "round": null,
-    "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T17:45:00Z",
-    "status": "in_progress",
-    "status_detail": "This field is for premium subscribers only.",
-    "period": "This field is for premium subscribers only.",
-    "clock": "This field is for premium subscribers only.",
-    "home_team": {
-      "team_id": "soccer-bodo-glimt",
-      "name": "Bodo/Glimt",
-      "abbreviation": "BODO"
-    },
-    "away_team": {
-      "team_id": "soccer-lask-linz",
-      "name": "LASK Linz",
-      "abbreviation": "LAS"
-    },
-    "home_score": "This field is for premium subscribers only.",
-    "away_score": "This field is for premium subscribers only.",
-    "period_scores": "This field is for premium subscribers only.",
-    "penalty_scores": "This field is for premium subscribers only.",
-    "aggregate_scores": "This field is for premium subscribers only.",
-    "decided_in": null,
-    "winner": null,
-    "venue": {
-      "name": "Aspmyra Stadion",
-      "city": "Bodø/Glimt",
-      "state": null,
-      "country": "NO"
-    },
-    "neutral_site": false,
-    "original_date": null,
-    "updated_at": "2026-11-24T19:11:01Z",
-    "hits": "This field is for premium subscribers only.",
-    "errors": "This field is for premium subscribers only."
-  },
-  {
-    "game_id": "ucl-20261124-aek-como",
-    "league": "ucl",
-    "sport": "soccer",
-    "season": 2026,
-    "season_label": "2026-27",
-    "season_type": "league_phase",
-    "round": null,
-    "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T20:00:00Z",
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T17:45:00Z",
     "status": "scheduled",
     "status_detail": null,
     "period": null,
     "clock": null,
     "home_team": {
-      "team_id": "soccer-como",
-      "name": "Como",
-      "abbreviation": "COMO"
+      "team_id": "soccer-sabah-fk",
+      "name": "Sabah FK",
+      "abbreviation": "SAB"
     },
     "away_team": {
-      "team_id": "soccer-aek-athens",
-      "name": "AEK Athens",
-      "abbreviation": "AEK"
+      "team_id": "soccer-barcelona",
+      "name": "Barcelona",
+      "abbreviation": "BAR"
     },
     "home_score": null,
     "away_score": null,
@@ -120,17 +32,17 @@
     "decided_in": null,
     "winner": null,
     "venue": {
-      "name": "Giuseppe Sinigaglia",
-      "city": "Como",
+      "name": "Baku Olympic Stadium",
+      "city": "Baku",
       "state": null,
-      "country": "IT"
+      "country": "AZ"
     },
     "neutral_site": false,
     "original_date": null,
     "updated_at": "2026-10-28T04:01:32Z"
   },
   {
-    "game_id": "ucl-20261124-bet-slb",
+    "game_id": "ucl-20261125-vil-slp",
     "league": "ucl",
     "sport": "soccer",
     "season": 2026,
@@ -138,21 +50,21 @@
     "season_type": "league_phase",
     "round": null,
     "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T20:00:00Z",
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T17:45:00Z",
     "status": "scheduled",
     "status_detail": null,
     "period": null,
     "clock": null,
     "home_team": {
-      "team_id": "soccer-slovan-bratislava",
-      "name": "Slovan Bratislava",
-      "abbreviation": "SLB"
+      "team_id": "soccer-slavia-prague",
+      "name": "Slavia Prague",
+      "abbreviation": "SLP"
     },
     "away_team": {
-      "team_id": "soccer-real-betis",
-      "name": "Real Betis",
-      "abbreviation": "BET"
+      "team_id": "soccer-villarreal",
+      "name": "Villarreal",
+      "abbreviation": "VIL"
     },
     "home_score": null,
     "away_score": null,
@@ -162,17 +74,17 @@
     "decided_in": null,
     "winner": null,
     "venue": {
-      "name": "Národny Futbalovy Stadión",
-      "city": "Bratislava",
+      "name": "Fortuna Arena",
+      "city": "Prague",
       "state": null,
-      "country": "SK"
+      "country": "CZ"
     },
     "neutral_site": false,
     "original_date": null,
     "updated_at": "2026-10-28T04:01:32Z"
   },
   {
-    "game_id": "ucl-20261124-dor-ars",
+    "game_id": "ucl-20261125-fen-shk",
     "league": "ucl",
     "sport": "soccer",
     "season": 2026,
@@ -180,21 +92,21 @@
     "season_type": "league_phase",
     "round": null,
     "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T20:00:00Z",
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T20:00:00Z",
     "status": "scheduled",
     "status_detail": null,
     "period": null,
     "clock": null,
     "home_team": {
-      "team_id": "soccer-arsenal",
-      "name": "Arsenal",
-      "abbreviation": "ARS"
+      "team_id": "soccer-shakhtar-donetsk",
+      "name": "Shakhtar Donetsk",
+      "abbreviation": "SHK"
     },
     "away_team": {
-      "team_id": "soccer-borussia-dortmund",
-      "name": "Borussia Dortmund",
-      "abbreviation": "DOR"
+      "team_id": "soccer-fenerbahce",
+      "name": "Fenerbahce",
+      "abbreviation": "FEN"
     },
     "home_score": null,
     "away_score": null,
@@ -204,7 +116,7 @@
     "decided_in": null,
     "winner": null,
     "venue": {
-      "name": "Emirates Stadium",
+      "name": "Stamford Bridge",
       "city": "London",
       "state": null,
       "country": "GB"
@@ -214,7 +126,7 @@
     "updated_at": "2026-10-28T04:01:32Z"
   },
   {
-    "game_id": "ucl-20261124-fcp-fey",
+    "game_id": "ucl-20261125-liv-bru",
     "league": "ucl",
     "sport": "soccer",
     "season": 2026,
@@ -222,21 +134,21 @@
     "season_type": "league_phase",
     "round": null,
     "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T20:00:00Z",
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T20:00:00Z",
     "status": "scheduled",
     "status_detail": null,
     "period": null,
     "clock": null,
     "home_team": {
-      "team_id": "soccer-feyenoord-rotterdam",
-      "name": "Feyenoord Rotterdam",
-      "abbreviation": "FEY"
+      "team_id": "soccer-club-brugge",
+      "name": "Club Brugge",
+      "abbreviation": "BRU"
     },
     "away_team": {
-      "team_id": "soccer-fc-porto",
-      "name": "FC Porto",
-      "abbreviation": "FCP"
+      "team_id": "soccer-liverpool",
+      "name": "Liverpool",
+      "abbreviation": "LIV"
     },
     "home_score": null,
     "away_score": null,
@@ -246,17 +158,17 @@
     "decided_in": null,
     "winner": null,
     "venue": {
-      "name": "De Kuip",
-      "city": "Rotterdam",
+      "name": "Jan Breydel Stadium",
+      "city": "Brugge",
       "state": null,
-      "country": "NL"
+      "country": "BE"
     },
     "neutral_site": false,
     "original_date": null,
     "updated_at": "2026-10-28T04:01:32Z"
   },
   {
-    "game_id": "ucl-20261124-nap-mnc",
+    "game_id": "ucl-20261125-man-scp",
     "league": "ucl",
     "sport": "soccer",
     "season": 2026,
@@ -264,21 +176,21 @@
     "season_type": "league_phase",
     "round": null,
     "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T20:00:00Z",
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T20:00:00Z",
     "status": "scheduled",
     "status_detail": null,
     "period": null,
     "clock": null,
     "home_team": {
-      "team_id": "soccer-manchester-city",
-      "name": "Manchester City",
-      "abbreviation": "MNC"
+      "team_id": "soccer-sporting-cp",
+      "name": "Sporting CP",
+      "abbreviation": "SCP"
     },
     "away_team": {
-      "team_id": "soccer-napoli",
-      "name": "Napoli",
-      "abbreviation": "NAP"
+      "team_id": "soccer-manchester-united",
+      "name": "Manchester United",
+      "abbreviation": "MAN"
     },
     "home_score": null,
     "away_score": null,
@@ -288,17 +200,17 @@
     "decided_in": null,
     "winner": null,
     "venue": {
-      "name": "Etihad Stadium",
-      "city": "Manchester",
+      "name": "Estádio José Alvalade",
+      "city": "Lisbon",
       "state": null,
-      "country": "GB"
+      "country": "PT"
     },
     "neutral_site": false,
     "original_date": null,
     "updated_at": "2026-10-28T04:01:32Z"
   },
   {
-    "game_id": "ucl-20261124-psv-rma",
+    "game_id": "ucl-20261125-mun-lill",
     "league": "ucl",
     "sport": "soccer",
     "season": 2026,
@@ -306,21 +218,21 @@
     "season_type": "league_phase",
     "round": null,
     "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T20:00:00Z",
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T20:00:00Z",
     "status": "scheduled",
     "status_detail": null,
     "period": null,
     "clock": null,
     "home_team": {
-      "team_id": "soccer-real-madrid",
-      "name": "Real Madrid",
-      "abbreviation": "RMA"
+      "team_id": "soccer-lille",
+      "name": "Lille",
+      "abbreviation": "LILL"
     },
     "away_team": {
-      "team_id": "soccer-psv-eindhoven",
-      "name": "PSV Eindhoven",
-      "abbreviation": "PSV"
+      "team_id": "soccer-bayern-munich",
+      "name": "Bayern Munich",
+      "abbreviation": "MUN"
     },
     "home_score": null,
     "away_score": null,
@@ -330,52 +242,136 @@
     "decided_in": null,
     "winner": null,
     "venue": {
-      "name": "Santiago Bernabéu",
+      "name": "Decathlon Arena - Stade Pierre-Mauroy",
+      "city": "Lille",
+      "state": null,
+      "country": "FR"
+    },
+    "neutral_site": false,
+    "original_date": null,
+    "updated_at": "2026-10-28T04:01:32Z"
+  },
+  {
+    "game_id": "ucl-20261125-roma-psg",
+    "league": "ucl",
+    "sport": "soccer",
+    "season": 2026,
+    "season_label": "2026-27",
+    "season_type": "league_phase",
+    "round": null,
+    "leg": null,
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T20:00:00Z",
+    "status": "scheduled",
+    "status_detail": null,
+    "period": null,
+    "clock": null,
+    "home_team": {
+      "team_id": "soccer-paris-saint-germain",
+      "name": "Paris Saint-Germain",
+      "abbreviation": "PSG"
+    },
+    "away_team": {
+      "team_id": "soccer-as-roma",
+      "name": "AS Roma",
+      "abbreviation": "ROMA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "period_scores": null,
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": null,
+    "winner": null,
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Paris",
+      "state": null,
+      "country": "FR"
+    },
+    "neutral_site": false,
+    "original_date": null,
+    "updated_at": "2026-10-28T04:01:32Z"
+  },
+  {
+    "game_id": "ucl-20261125-vfb-int",
+    "league": "ucl",
+    "sport": "soccer",
+    "season": 2026,
+    "season_label": "2026-27",
+    "season_type": "league_phase",
+    "round": null,
+    "leg": null,
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T20:00:00Z",
+    "status": "scheduled",
+    "status_detail": null,
+    "period": null,
+    "clock": null,
+    "home_team": {
+      "team_id": "soccer-internazionale",
+      "name": "Internazionale",
+      "abbreviation": "INT"
+    },
+    "away_team": {
+      "team_id": "soccer-vfb-stuttgart",
+      "name": "VfB Stuttgart",
+      "abbreviation": "VFB"
+    },
+    "home_score": null,
+    "away_score": null,
+    "period_scores": null,
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": null,
+    "winner": null,
+    "venue": {
+      "name": "San Siro",
+      "city": "Milano",
+      "state": null,
+      "country": "IT"
+    },
+    "neutral_site": false,
+    "original_date": null,
+    "updated_at": "2026-10-28T04:01:32Z"
+  },
+  {
+    "game_id": "ucl-20261125-vfk-atm",
+    "league": "ucl",
+    "sport": "soccer",
+    "season": 2026,
+    "season_label": "2026-27",
+    "season_type": "league_phase",
+    "round": null,
+    "leg": null,
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T20:00:00Z",
+    "status": "scheduled",
+    "status_detail": null,
+    "period": null,
+    "clock": null,
+    "home_team": {
+      "team_id": "soccer-atletico-madrid",
+      "name": "Atlético Madrid",
+      "abbreviation": "ATM"
+    },
+    "away_team": {
+      "team_id": "soccer-viking-fk",
+      "name": "Viking FK",
+      "abbreviation": "VFK"
+    },
+    "home_score": null,
+    "away_score": null,
+    "period_scores": null,
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": null,
+    "winner": null,
+    "venue": {
+      "name": "Riyadh Air Metropolitano",
       "city": "Madrid",
       "state": null,
       "country": "ES"
-    },
-    "neutral_site": false,
-    "original_date": null,
-    "updated_at": "2026-10-28T04:01:32Z"
-  },
-  {
-    "game_id": "ucl-20261124-rcl-rbl",
-    "league": "ucl",
-    "sport": "soccer",
-    "season": 2026,
-    "season_label": "2026-27",
-    "season_type": "league_phase",
-    "round": null,
-    "leg": null,
-    "date": "2026-11-24",
-    "start_time": "2026-11-24T20:00:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
-    "home_team": {
-      "team_id": "soccer-rb-leipzig",
-      "name": "RB Leipzig",
-      "abbreviation": "RBL"
-    },
-    "away_team": {
-      "team_id": "soccer-lens",
-      "name": "Lens",
-      "abbreviation": "RCL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
-    "venue": {
-      "name": "Red Bull Arena",
-      "city": "Leipzig",
-      "state": null,
-      "country": "DE"
     },
     "neutral_site": false,
     "original_date": null,
