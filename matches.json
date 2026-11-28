@@ -10,10 +10,10 @@
     "leg": null,
     "date": "2026-11-28",
     "start_time": "2026-11-28T15:00:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-manchester-united",
       "name": "Manchester United",
@@ -24,11 +24,11 @@
       "name": "Brentford",
       "abbreviation": "BRE"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -39,7 +39,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-28T15:31:01Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "epl-20261128-cov-lee",
@@ -52,10 +54,10 @@
     "leg": null,
     "date": "2026-11-28",
     "start_time": "2026-11-28T15:00:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-leeds-united",
       "name": "Leeds United",
@@ -66,11 +68,11 @@
       "name": "Coventry City",
       "abbreviation": "COV"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -81,7 +83,9 @@
     },
     "neutral_site": false,
     "original_date": null,
-    "updated_at": "2026-10-27T23:14:11Z"
+    "updated_at": "2026-11-28T15:30:01Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "epl-20261128-avl-ips",
@@ -136,9 +140,9 @@
     "leg": null,
     "date": "2026-11-28",
     "start_time": "2026-11-28T13:00:00Z",
-    "status": "scheduled",
+    "status": "final",
     "status_detail": null,
-    "period": null,
+    "period": 2,
     "clock": null,
     "home_team": {
       "team_id": "soccer-real-betis",
@@ -150,13 +154,22 @@
       "name": "Rayo Vallecano",
       "abbreviation": "RAY"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
+    "home_score": 0,
+    "away_score": 1,
+    "period_scores": {
+      "home": [
+        0,
+        0
+      ],
+      "away": [
+        0,
+        1
+      ]
+    },
     "penalty_scores": null,
     "aggregate_scores": null,
-    "decided_in": null,
-    "winner": null,
+    "decided_in": "regulation",
+    "winner": "soccer-rayo-vallecano",
     "venue": {
       "name": "Estadio La Cartuja",
       "city": "Sevilla",
@@ -165,7 +178,7 @@
     },
     "neutral_site": false,
     "original_date": "2026-11-29",
-    "updated_at": "2026-11-06T15:13:56Z"
+    "updated_at": "2026-11-28T15:00:01Z"
   },
   {
     "game_id": "laliga-20261129-ath-mcf",
@@ -178,10 +191,10 @@
     "leg": null,
     "date": "2026-11-28",
     "start_time": "2026-11-28T15:15:00Z",
-    "status": "scheduled",
-    "status_detail": null,
-    "period": null,
-    "clock": null,
+    "status": "in_progress",
+    "status_detail": "This field is for premium subscribers only.",
+    "period": "This field is for premium subscribers only.",
+    "clock": "This field is for premium subscribers only.",
     "home_team": {
       "team_id": "soccer-malaga",
       "name": "Málaga",
@@ -192,11 +205,11 @@
       "name": "Athletic Club",
       "abbreviation": "ATH"
     },
-    "home_score": null,
-    "away_score": null,
-    "period_scores": null,
-    "penalty_scores": null,
-    "aggregate_scores": null,
+    "home_score": "This field is for premium subscribers only.",
+    "away_score": "This field is for premium subscribers only.",
+    "period_scores": "This field is for premium subscribers only.",
+    "penalty_scores": "This field is for premium subscribers only.",
+    "aggregate_scores": "This field is for premium subscribers only.",
     "decided_in": null,
     "winner": null,
     "venue": {
@@ -207,7 +220,9 @@
     },
     "neutral_site": false,
     "original_date": "2026-11-29",
-    "updated_at": "2026-11-06T15:13:56Z"
+    "updated_at": "2026-11-28T15:31:01Z",
+    "hits": "This field is for premium subscribers only.",
+    "errors": "This field is for premium subscribers only."
   },
   {
     "game_id": "laliga-20261129-atm-elc",
