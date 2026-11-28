@@ -1,6 +1,6 @@
 [
   {
-    "game_id": "epl-20261127-che-nfo",
+    "game_id": "epl-20261128-bre-man",
     "league": "epl",
     "sport": "soccer",
     "season": 2026,
@@ -8,21 +8,21 @@
     "season_type": "regular",
     "round": null,
     "leg": null,
-    "date": "2026-11-27",
-    "start_time": "2026-11-27T20:00:00Z",
+    "date": "2026-11-28",
+    "start_time": "2026-11-28T15:00:00Z",
     "status": "scheduled",
     "status_detail": null,
     "period": null,
     "clock": null,
     "home_team": {
-      "team_id": "soccer-nottingham-forest",
-      "name": "Nottingham Forest",
-      "abbreviation": "NFO"
+      "team_id": "soccer-manchester-united",
+      "name": "Manchester United",
+      "abbreviation": "MAN"
     },
     "away_team": {
-      "team_id": "soccer-chelsea",
-      "name": "Chelsea",
-      "abbreviation": "CHE"
+      "team_id": "soccer-brentford",
+      "name": "Brentford",
+      "abbreviation": "BRE"
     },
     "home_score": null,
     "away_score": null,
@@ -32,8 +32,8 @@
     "decided_in": null,
     "winner": null,
     "venue": {
-      "name": "The City Ground",
-      "city": "Nottingham",
+      "name": "Old Trafford",
+      "city": "Manchester",
       "state": null,
       "country": "GB"
     },
@@ -42,29 +42,29 @@
     "updated_at": "2026-10-27T23:14:11Z"
   },
   {
-    "game_id": "laliga-20261129-rac-lev",
-    "league": "laliga",
+    "game_id": "epl-20261128-cov-lee",
+    "league": "epl",
     "sport": "soccer",
     "season": 2026,
     "season_label": "2026-27",
     "season_type": "regular",
     "round": null,
     "leg": null,
-    "date": "2026-11-27",
-    "start_time": "2026-11-27T20:00:00Z",
+    "date": "2026-11-28",
+    "start_time": "2026-11-28T15:00:00Z",
     "status": "scheduled",
     "status_detail": null,
     "period": null,
     "clock": null,
     "home_team": {
-      "team_id": "soccer-levante",
-      "name": "Levante",
-      "abbreviation": "LEV"
+      "team_id": "soccer-leeds-united",
+      "name": "Leeds United",
+      "abbreviation": "LEE"
     },
     "away_team": {
-      "team_id": "soccer-racing-santander",
-      "name": "Racing Santander",
-      "abbreviation": "RAC"
+      "team_id": "soccer-coventry-city",
+      "name": "Coventry City",
+      "abbreviation": "COV"
     },
     "home_score": null,
     "away_score": null,
@@ -74,8 +74,218 @@
     "decided_in": null,
     "winner": null,
     "venue": {
-      "name": "Estadi Ciutat de València",
-      "city": "Manises",
+      "name": "Elland Road",
+      "city": "Leeds",
+      "state": null,
+      "country": "GB"
+    },
+    "neutral_site": false,
+    "original_date": null,
+    "updated_at": "2026-10-27T23:14:11Z"
+  },
+  {
+    "game_id": "epl-20261128-avl-ips",
+    "league": "epl",
+    "sport": "soccer",
+    "season": 2026,
+    "season_label": "2026-27",
+    "season_type": "regular",
+    "round": null,
+    "leg": null,
+    "date": "2026-11-28",
+    "start_time": "2026-11-28T17:30:00Z",
+    "status": "scheduled",
+    "status_detail": null,
+    "period": null,
+    "clock": null,
+    "home_team": {
+      "team_id": "soccer-ipswich-town",
+      "name": "Ipswich Town",
+      "abbreviation": "IPS"
+    },
+    "away_team": {
+      "team_id": "soccer-aston-villa",
+      "name": "Aston Villa",
+      "abbreviation": "AVL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "period_scores": null,
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": null,
+    "winner": null,
+    "venue": {
+      "name": "Portman Road",
+      "city": "Ipswich",
+      "state": null,
+      "country": "GB"
+    },
+    "neutral_site": false,
+    "original_date": null,
+    "updated_at": "2026-10-27T23:14:11Z"
+  },
+  {
+    "game_id": "laliga-20261129-ray-bet",
+    "league": "laliga",
+    "sport": "soccer",
+    "season": 2026,
+    "season_label": "2026-27",
+    "season_type": "regular",
+    "round": null,
+    "leg": null,
+    "date": "2026-11-28",
+    "start_time": "2026-11-28T13:00:00Z",
+    "status": "scheduled",
+    "status_detail": null,
+    "period": null,
+    "clock": null,
+    "home_team": {
+      "team_id": "soccer-real-betis",
+      "name": "Real Betis",
+      "abbreviation": "BET"
+    },
+    "away_team": {
+      "team_id": "soccer-rayo-vallecano",
+      "name": "Rayo Vallecano",
+      "abbreviation": "RAY"
+    },
+    "home_score": null,
+    "away_score": null,
+    "period_scores": null,
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": null,
+    "winner": null,
+    "venue": {
+      "name": "Estadio La Cartuja",
+      "city": "Sevilla",
+      "state": null,
+      "country": "ES"
+    },
+    "neutral_site": false,
+    "original_date": "2026-11-29",
+    "updated_at": "2026-11-06T15:13:56Z"
+  },
+  {
+    "game_id": "laliga-20261129-ath-mcf",
+    "league": "laliga",
+    "sport": "soccer",
+    "season": 2026,
+    "season_label": "2026-27",
+    "season_type": "regular",
+    "round": null,
+    "leg": null,
+    "date": "2026-11-28",
+    "start_time": "2026-11-28T15:15:00Z",
+    "status": "scheduled",
+    "status_detail": null,
+    "period": null,
+    "clock": null,
+    "home_team": {
+      "team_id": "soccer-malaga",
+      "name": "Málaga",
+      "abbreviation": "MCF"
+    },
+    "away_team": {
+      "team_id": "soccer-athletic-club",
+      "name": "Athletic Club",
+      "abbreviation": "ATH"
+    },
+    "home_score": null,
+    "away_score": null,
+    "period_scores": null,
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": null,
+    "winner": null,
+    "venue": {
+      "name": "La Rosaleda",
+      "city": "Malaga",
+      "state": null,
+      "country": "ES"
+    },
+    "neutral_site": false,
+    "original_date": "2026-11-29",
+    "updated_at": "2026-11-06T15:13:56Z"
+  },
+  {
+    "game_id": "laliga-20261129-atm-elc",
+    "league": "laliga",
+    "sport": "soccer",
+    "season": 2026,
+    "season_label": "2026-27",
+    "season_type": "regular",
+    "round": null,
+    "leg": null,
+    "date": "2026-11-28",
+    "start_time": "2026-11-28T17:30:00Z",
+    "status": "scheduled",
+    "status_detail": null,
+    "period": null,
+    "clock": null,
+    "home_team": {
+      "team_id": "soccer-elche",
+      "name": "Elche",
+      "abbreviation": "ELC"
+    },
+    "away_team": {
+      "team_id": "soccer-atletico-madrid",
+      "name": "Atlético Madrid",
+      "abbreviation": "ATM"
+    },
+    "home_score": null,
+    "away_score": null,
+    "period_scores": null,
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": null,
+    "winner": null,
+    "venue": {
+      "name": "Estadio Martínez Valero",
+      "city": "Elche",
+      "state": null,
+      "country": "ES"
+    },
+    "neutral_site": false,
+    "original_date": "2026-11-29",
+    "updated_at": "2026-11-06T15:13:56Z"
+  },
+  {
+    "game_id": "laliga-20261129-ala-rma",
+    "league": "laliga",
+    "sport": "soccer",
+    "season": 2026,
+    "season_label": "2026-27",
+    "season_type": "regular",
+    "round": null,
+    "leg": null,
+    "date": "2026-11-28",
+    "start_time": "2026-11-28T20:00:00Z",
+    "status": "scheduled",
+    "status_detail": null,
+    "period": null,
+    "clock": null,
+    "home_team": {
+      "team_id": "soccer-real-madrid",
+      "name": "Real Madrid",
+      "abbreviation": "RMA"
+    },
+    "away_team": {
+      "team_id": "soccer-alaves",
+      "name": "Alavés",
+      "abbreviation": "ALA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "period_scores": null,
+    "penalty_scores": null,
+    "aggregate_scores": null,
+    "decided_in": null,
+    "winner": null,
+    "venue": {
+      "name": "Santiago Bernabéu",
+      "city": "Madrid",
       "state": null,
       "country": "ES"
     },
